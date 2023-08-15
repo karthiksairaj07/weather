@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/weather",
+        "create path (nt:unstructured) /content/dam/weather/jcr:content",
+        "set properties on /content/dam/weather/jcr:content\n  set cq:conf{String} to /conf/weather\n  set jcr:title{String} to \"weather channel\"\nend"
+    ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/weather" mode="merge"/>
+    <filter root="/content/weather" mode="merge"/>
+    <filter root="/content/dam/weather" mode="merge">
+        <exclude pattern="/content/dam/weather(/.*)?"/>
+        <include pattern="/content/dam/weather/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/weather/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/weather" mode="merge"/>
+</workspaceFilter>
